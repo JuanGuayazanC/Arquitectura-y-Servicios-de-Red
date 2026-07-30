@@ -35,9 +35,16 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 
 - Los laboratorios se desarrollaron en pareja con ANDRES CAMILO VIVAS BAQUERO.
 - Cada laboratorio se documenta como un informe en LaTeX (compilado a PDF) dentro de su propio repositorio.
-- Los 8 repositorios de este curso provienen de 3 repositorios originales (`network-protocols-and-databases-AYSR`, `it-infrastructure-AYSR`, `AYSR3`), cada uno con 2-3 laboratorios mezclados, separados aquí en un repositorio por laboratorio.
-- En `Servidores-Web-Nginx-y-Apache-AYSR` se integraron scripts de arranque de Nginx (`rc.nginx`, `rc.local`, `nginx.conf`) transcritos de las capturas de pantalla del informe, ya que el código fuente original no se había subido a GitHub.
-- En `Configuracion-de-SO-y-Shell-Scripting-AYSR` se usaron cinco scripts de shell propios cuyo código fuente no se pudo recuperar (`new_group.sh`, `new_user.sh`, `ls_command.sh`, `file_search.sh`, `log_file_review.sh`) — solo queda la evidencia de su ejecución en capturas de pantalla.
+- Los 8 repositorios de este curso provienen de 3 repositorios originales (`network-protocols-and-databases-AYSR`, `it-infrastructure-AYSR`, `AYSR3`), cada uno con 2-3 laboratorios mezclados, separados aquí en un repositorio por laboratorio, con los archivos directamente en la raíz de cada repositorio (sin la carpeta intermedia original).
+- Cada repositorio incluye una carpeta `scripts/` con el código Shell (u otro código ejecutable, como SQL) relacionado con ese laboratorio, extraído o reconstruido a partir del informe:
+  - `Infraestructura-Basica-y-Capa-de-Red-AYSR`: `network_info.sh` y `check_port.sh` — extraídos textualmente del informe (`lstlisting`).
+  - `Servidores-Web-Nginx-y-Apache-AYSR`: `nginx.conf`, `rc.nginx`, `rc.local` — transcritos de las capturas de pantalla del informe.
+  - `Plataforma-Base-y-Servidor-DNS-AYSR`: `setup_dns.sh` — combina los comandos reales de instalación/arranque de BIND mostrados en el informe.
+  - `Capa-de-Aplicacion-y-Capa-Fisica-AYSR`: `http_dhcp_demo.sh` — combina los comandos reales de la demostración DHCP/HTTP del informe.
+  - `Protocolos-de-Red-para-Bases-de-Datos-AYSR`: `database.sql` (SQL real del informe) y `setup_database.sh` (wrapper).
+  - `Plataforma-Base-Windows-Server-y-Android-AYSR`: `sysinfo.sh` — combina los comandos Linux/Unix del comparativo de comandos del informe.
+  - `Capa-de-Enlace-y-Aplicacion-AYSR`: `verify_connectivity.sh` — sintetizado a partir de la verificación de conectividad descrita en el informe.
+  - `Configuracion-de-SO-y-Shell-Scripting-AYSR`: `new_group.sh`, `new_user.sh`, `ls_command.sh`, `file_search.sh`, `log_file_review.sh` — el código fuente original no se subió a GitHub; estos scripts se **reconstruyeron** a partir del comportamiento observado en las capturas de pantalla de su ejecución, por instrucción explícita del autor.
 
 ## Herramientas
 
