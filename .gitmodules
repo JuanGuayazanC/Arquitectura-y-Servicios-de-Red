@@ -18,15 +18,15 @@
 	path = Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR
 	url = https://github.com/JuanGuayazanC/Capa-de-Enlace-y-Aplicacion-AYSR.git
 	branch = main
-[submodule "Laboratorios/network-protocols-and-databases-AYSR"]
-	path = Laboratorios/network-protocols-and-databases-AYSR
-	url = https://github.com/JuanGuayazanC/network-protocols-and-databases-AYSR.git
+[submodule "Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR"]
+	path = Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR
+	url = https://github.com/JuanGuayazanC/Plataforma-Base-y-Servidor-DNS-AYSR.git
 	branch = main
-[submodule "Laboratorios/it-infrastructure-AYSR"]
-	path = Laboratorios/it-infrastructure-AYSR
-	url = https://github.com/JuanGuayazanC/it-infrastructure-AYSR.git
+[submodule "Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR"]
+	path = Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR
+	url = https://github.com/JuanGuayazanC/Configuracion-de-SO-y-Shell-Scripting-AYSR.git
 	branch = main
-[submodule "Laboratorios/AYSR3"]
-	path = Laboratorios/AYSR3
-	url = https://github.com/JuanGuayazanC/AYSR3.git
+[submodule "Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR"]
+	path = Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR
+	url = https://github.com/JuanGuayazanC/Infraestructura-Basica-y-Capa-de-Red-AYSR.git
 	branch = main
