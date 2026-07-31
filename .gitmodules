@@ -1,32 +1,60 @@
-[submodule "Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR"]
-	path = Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR
+[submodule "Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR/AYSR-6L"]
+	path = Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR/AYSR-6L
 	url = https://github.com/JuanGuayazanC/Capa-de-Aplicacion-y-Capa-Fisica-AYSR.git
 	branch = main
-[submodule "Laboratorios/Protocolos-de-Red-para-Bases-de-Datos-AYSR"]
-	path = Laboratorios/Protocolos-de-Red-para-Bases-de-Datos-AYSR
-	url = https://github.com/JuanGuayazanC/Protocolos-de-Red-para-Bases-de-Datos-AYSR.git
+[submodule "Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR/AYSR-5L"]
+	path = Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR/AYSR-5L
+	url = https://github.com/JuanGuayazanC/Capa-de-Aplicacion-y-Capa-Fisica-AYSR-5L.git
 	branch = main
-[submodule "Laboratorios/Plataforma-Base-Windows-Server-y-Android-AYSR"]
-	path = Laboratorios/Plataforma-Base-Windows-Server-y-Android-AYSR
-	url = https://github.com/JuanGuayazanC/Plataforma-Base-Windows-Server-y-Android-AYSR.git
-	branch = main
-[submodule "Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR"]
-	path = Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR
-	url = https://github.com/JuanGuayazanC/Servidores-Web-Nginx-y-Apache-AYSR.git
-	branch = main
-[submodule "Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR"]
-	path = Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR
+[submodule "Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR/AYSR-6L"]
+	path = Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR/AYSR-6L
 	url = https://github.com/JuanGuayazanC/Capa-de-Enlace-y-Aplicacion-AYSR.git
 	branch = main
-[submodule "Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR"]
-	path = Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR
+[submodule "Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR/AYSR-5L"]
+	path = Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR/AYSR-5L
+	url = https://github.com/JuanGuayazanC/Capa-de-Enlace-y-Aplicacion-AYSR-5L.git
+	branch = main
+[submodule "Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR/AYSR-6L"]
+	path = Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR/AYSR-6L
+	url = https://github.com/JuanGuayazanC/Infraestructura-Basica-y-Capa-de-Red-AYSR.git
+	branch = main
+[submodule "Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR/AYSR-5L"]
+	path = Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR/AYSR-5L
+	url = https://github.com/JuanGuayazanC/Infraestructura-Basica-y-Capa-de-Red-AYSR-5L.git
+	branch = main
+[submodule "Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR/AYSR-6L"]
+	path = Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR/AYSR-6L
 	url = https://github.com/JuanGuayazanC/Plataforma-Base-y-Servidor-DNS-AYSR.git
+	branch = main
+[submodule "Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR/AYSR-5L"]
+	path = Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR/AYSR-5L
+	url = https://github.com/JuanGuayazanC/Plataforma-Base-y-Servidor-DNS-AYSR-5L.git
+	branch = main
+[submodule "Laboratorios/Protocolos-de-Red-para-Bases-de-Datos-AYSR/AYSR-6L"]
+	path = Laboratorios/Protocolos-de-Red-para-Bases-de-Datos-AYSR/AYSR-6L
+	url = https://github.com/JuanGuayazanC/Protocolos-de-Red-para-Bases-de-Datos-AYSR.git
+	branch = main
+[submodule "Laboratorios/Protocolos-de-Red-para-Bases-de-Datos-AYSR/AYSR-5L"]
+	path = Laboratorios/Protocolos-de-Red-para-Bases-de-Datos-AYSR/AYSR-5L
+	url = https://github.com/JuanGuayazanC/Protocolos-de-Red-para-Bases-de-Datos-AYSR-5L.git
+	branch = main
+[submodule "Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR/AYSR-6L"]
+	path = Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR/AYSR-6L
+	url = https://github.com/JuanGuayazanC/Servidores-Web-Nginx-y-Apache-AYSR.git
+	branch = main
+[submodule "Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR/AYSR-5L"]
+	path = Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR/AYSR-5L
+	url = https://github.com/JuanGuayazanC/Servidores-Web-Nginx-y-Apache-AYSR-5L.git
+	branch = main
+[submodule "Laboratorios/Creacion-de-Instancia-EC2-en-AWS-AYSR-5L"]
+	path = Laboratorios/Creacion-de-Instancia-EC2-en-AWS-AYSR-5L
+	url = https://github.com/JuanGuayazanC/Creacion-de-Instancia-EC2-en-AWS-AYSR-5L.git
 	branch = main
 [submodule "Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR"]
 	path = Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR
 	url = https://github.com/JuanGuayazanC/Configuracion-de-SO-y-Shell-Scripting-AYSR.git
 	branch = main
-[submodule "Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR"]
-	path = Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR
-	url = https://github.com/JuanGuayazanC/Infraestructura-Basica-y-Capa-de-Red-AYSR.git
+[submodule "Laboratorios/Plataforma-Base-Windows-Server-y-Android-AYSR"]
+	path = Laboratorios/Plataforma-Base-Windows-Server-y-Android-AYSR
+	url = https://github.com/JuanGuayazanC/Plataforma-Base-Windows-Server-y-Android-AYSR.git
 	branch = main
