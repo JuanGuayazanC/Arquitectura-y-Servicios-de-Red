@@ -9,12 +9,12 @@ Cada submódulo es un repositorio independiente con su propio historial de commi
 ```
 Arquitectura-y-Servicios-de-Red/
 └── Laboratorios/
-    ├── Plataforma-Base-y-Servidor-DNS-AYSR/
+    ├── network-protocols-and-databases-AYSR/   # Plataforma Base y Servidor DNS
     ├── Capa-de-Aplicacion-y-Capa-Fisica-AYSR/
     ├── Protocolos-de-Red-para-Bases-de-Datos-AYSR/
-    ├── Configuracion-de-SO-y-Shell-Scripting-AYSR/
+    ├── it-infrastructure-AYSR/                 # Configuración de SO y Shell Scripting
     ├── Plataforma-Base-Windows-Server-y-Android-AYSR/
-    ├── Infraestructura-Basica-y-Capa-de-Red-AYSR/
+    ├── AYSR3/                                  # Infraestructura Básica y Capa de Red
     ├── Servidores-Web-Nginx-y-Apache-AYSR/
     └── Capa-de-Enlace-y-Aplicacion-AYSR/
 ```
@@ -35,16 +35,17 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 
 - Los laboratorios se desarrollaron en pareja con ANDRES CAMILO VIVAS BAQUERO.
 - Cada laboratorio se documenta como un informe en LaTeX (compilado a PDF) dentro de su propio repositorio.
-- Los 8 repositorios de este curso provienen de 3 repositorios originales (`network-protocols-and-databases-AYSR`, `it-infrastructure-AYSR`, `AYSR3`), cada uno con 2-3 laboratorios mezclados, separados aquí en un repositorio por laboratorio, con los archivos directamente en la raíz de cada repositorio (sin la carpeta intermedia original).
+- Los 8 laboratorios de este curso provienen de 3 repositorios originales (`network-protocols-and-databases-AYSR`, `it-infrastructure-AYSR`, `AYSR3`), cada uno con 2-3 laboratorios mezclados, separados en un repositorio por laboratorio, con los archivos directamente en la raíz de cada repositorio (sin la carpeta intermedia original).
+- De cada grupo de laboratorios separados, uno se reutilizó dentro del repositorio original correspondiente (en vez de crear un repositorio nuevo), para conservar el acceso de colaborador (`Cam1lo27`, Andrés Camilo Vivas Baquero) ya otorgado en esos 3 repositorios: `network-protocols-and-databases-AYSR` contiene "Plataforma Base y Servidor DNS", `it-infrastructure-AYSR` contiene "Configuración de SO y Shell Scripting", y `AYSR3` contiene "Infraestructura Básica y Capa de Red". Los demás laboratorios (5) quedaron en repositorios nuevos independientes.
 - Cada repositorio incluye una carpeta `scripts/` con el código Shell (u otro código ejecutable, como SQL) relacionado con ese laboratorio, extraído o reconstruido a partir del informe:
-  - `Infraestructura-Basica-y-Capa-de-Red-AYSR`: `network_info.sh` y `check_port.sh` — extraídos textualmente del informe (`lstlisting`).
+  - `AYSR3` (Infraestructura Básica y Capa de Red): `network_info.sh` y `check_port.sh` — extraídos textualmente del informe (`lstlisting`).
   - `Servidores-Web-Nginx-y-Apache-AYSR`: `nginx.conf`, `rc.nginx`, `rc.local` — transcritos de las capturas de pantalla del informe.
-  - `Plataforma-Base-y-Servidor-DNS-AYSR`: `setup_dns.sh` — combina los comandos reales de instalación/arranque de BIND mostrados en el informe.
+  - `network-protocols-and-databases-AYSR` (Plataforma Base y Servidor DNS): `setup_dns.sh` — combina los comandos reales de instalación/arranque de BIND mostrados en el informe.
   - `Capa-de-Aplicacion-y-Capa-Fisica-AYSR`: `http_dhcp_demo.sh` — combina los comandos reales de la demostración DHCP/HTTP del informe.
   - `Protocolos-de-Red-para-Bases-de-Datos-AYSR`: `database.sql` (SQL real del informe) y `setup_database.sh` (wrapper).
   - `Plataforma-Base-Windows-Server-y-Android-AYSR`: `sysinfo.sh` — combina los comandos Linux/Unix del comparativo de comandos del informe.
   - `Capa-de-Enlace-y-Aplicacion-AYSR`: `verify_connectivity.sh` — sintetizado a partir de la verificación de conectividad descrita en el informe.
-  - `Configuracion-de-SO-y-Shell-Scripting-AYSR`: `new_group.sh`, `new_user.sh`, `ls_command.sh`, `file_search.sh`, `log_file_review.sh` — el código fuente original no se subió a GitHub; estos scripts se **reconstruyeron** a partir del comportamiento observado en las capturas de pantalla de su ejecución, por instrucción explícita del autor.
+  - `it-infrastructure-AYSR` (Configuración de SO y Shell Scripting): `new_group.sh`, `new_user.sh`, `ls_command.sh`, `file_search.sh`, `log_file_review.sh` — el código fuente original no se subió a GitHub; estos scripts se **reconstruyeron** a partir del comportamiento observado en las capturas de pantalla de su ejecución, por instrucción explícita del autor.
 
 ## Herramientas
 

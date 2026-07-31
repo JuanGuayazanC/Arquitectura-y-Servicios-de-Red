@@ -1,7 +1,3 @@
-[submodule "Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR"]
-	path = Laboratorios/Plataforma-Base-y-Servidor-DNS-AYSR
-	url = https://github.com/JuanGuayazanC/Plataforma-Base-y-Servidor-DNS-AYSR.git
-	branch = main
 [submodule "Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR"]
 	path = Laboratorios/Capa-de-Aplicacion-y-Capa-Fisica-AYSR
 	url = https://github.com/JuanGuayazanC/Capa-de-Aplicacion-y-Capa-Fisica-AYSR.git
@@ -10,17 +6,9 @@
 	path = Laboratorios/Protocolos-de-Red-para-Bases-de-Datos-AYSR
 	url = https://github.com/JuanGuayazanC/Protocolos-de-Red-para-Bases-de-Datos-AYSR.git
 	branch = main
-[submodule "Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR"]
-	path = Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR
-	url = https://github.com/JuanGuayazanC/Configuracion-de-SO-y-Shell-Scripting-AYSR.git
-	branch = main
 [submodule "Laboratorios/Plataforma-Base-Windows-Server-y-Android-AYSR"]
 	path = Laboratorios/Plataforma-Base-Windows-Server-y-Android-AYSR
 	url = https://github.com/JuanGuayazanC/Plataforma-Base-Windows-Server-y-Android-AYSR.git
-	branch = main
-[submodule "Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR"]
-	path = Laboratorios/Infraestructura-Basica-y-Capa-de-Red-AYSR
-	url = https://github.com/JuanGuayazanC/Infraestructura-Basica-y-Capa-de-Red-AYSR.git
 	branch = main
 [submodule "Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR"]
 	path = Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR
@@ -29,4 +17,16 @@
 [submodule "Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR"]
 	path = Laboratorios/Capa-de-Enlace-y-Aplicacion-AYSR
 	url = https://github.com/JuanGuayazanC/Capa-de-Enlace-y-Aplicacion-AYSR.git
+	branch = main
+[submodule "Laboratorios/network-protocols-and-databases-AYSR"]
+	path = Laboratorios/network-protocols-and-databases-AYSR
+	url = https://github.com/JuanGuayazanC/network-protocols-and-databases-AYSR.git
+	branch = main
+[submodule "Laboratorios/it-infrastructure-AYSR"]
+	path = Laboratorios/it-infrastructure-AYSR
+	url = https://github.com/JuanGuayazanC/it-infrastructure-AYSR.git
+	branch = main
+[submodule "Laboratorios/AYSR3"]
+	path = Laboratorios/AYSR3
+	url = https://github.com/JuanGuayazanC/AYSR3.git
 	branch = main
