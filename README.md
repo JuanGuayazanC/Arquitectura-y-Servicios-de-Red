@@ -1,6 +1,6 @@
 # Arquitectura y Servicios de Red (AYSR)
 
-Repositorio general del curso Arquitectura y Servicios de Red (ISIS AYSR-6L), que agrupa —mediante submódulos de git— los laboratorios del curso.
+Repositorio general del curso Arquitectura y Servicios de Red (ISIS AYSR), que agrupa —mediante submódulos de git— los laboratorios del curso, incluyendo dos intentos: 2025-2 (sección AYSR-5L) y 2026-1 (sección AYSR-6L).
 
 Cada submódulo es un repositorio independiente con su propio historial de commits y README. Para clonar este repositorio junto con todo su contenido, ver [Cómo clonar](#cómo-clonar).
 
@@ -9,14 +9,27 @@ Cada submódulo es un repositorio independiente con su propio historial de commi
 ```
 Arquitectura-y-Servicios-de-Red/
 └── Laboratorios/
-    ├── Plataforma-Base-y-Servidor-DNS-AYSR/
-    ├── Capa-de-Aplicacion-y-Capa-Fisica-AYSR/
-    ├── Protocolos-de-Red-para-Bases-de-Datos-AYSR/
-    ├── Configuracion-de-SO-y-Shell-Scripting-AYSR/
-    ├── Plataforma-Base-Windows-Server-y-Android-AYSR/
-    ├── Infraestructura-Basica-y-Capa-de-Red-AYSR/
-    ├── Servidores-Web-Nginx-y-Apache-AYSR/
-    └── Capa-de-Enlace-y-Aplicacion-AYSR/
+    ├── Plataforma-Base-y-Servidor-DNS-AYSR/            # Servidor DNS (BIND/named)
+    │   ├── AYSR-6L/                                    #   Intento 2026-1
+    │   └── AYSR-5L/                                    #   Intento 2025-2
+    ├── Capa-de-Aplicacion-y-Capa-Fisica-AYSR/           # Protocolos de capa de aplicación y física
+    │   ├── AYSR-6L/
+    │   └── AYSR-5L/
+    ├── Protocolos-de-Red-para-Bases-de-Datos-AYSR/      # Bases de datos y protocolos de red
+    │   ├── AYSR-6L/
+    │   └── AYSR-5L/
+    ├── Servidores-Web-Nginx-y-Apache-AYSR/              # Servidores web y protocolos de aplicación
+    │   ├── AYSR-6L/
+    │   └── AYSR-5L/
+    ├── Infraestructura-Basica-y-Capa-de-Red-AYSR/       # Infraestructura básica y capa de red
+    │   ├── AYSR-6L/
+    │   └── AYSR-5L/
+    ├── Capa-de-Enlace-y-Aplicacion-AYSR/                # VLANs, WiFi, capa de enlace
+    │   ├── AYSR-6L/
+    │   └── AYSR-5L/
+    ├── Configuracion-de-SO-y-Shell-Scripting-AYSR/      # Configuración de SO y shell scripting (2026-1)
+    ├── Plataforma-Base-Windows-Server-y-Android-AYSR/   # Windows Server y Android (2026-1)
+    └── Creacion-de-Instancia-EC2-en-AWS-AYSR-5L/        # Instancia EC2 en AWS (2025-2)
 ```
 
 ## Temas del curso
@@ -33,9 +46,10 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 
 ## Cosas a tener en cuenta
 
-- Los laboratorios se desarrollaron en pareja con ANDRES CAMILO VIVAS BAQUERO (`Cam1lo27` en GitHub), quien es colaborador directo en `Plataforma-Base-y-Servidor-DNS-AYSR`, `Configuracion-de-SO-y-Shell-Scripting-AYSR` e `Infraestructura-Basica-y-Capa-de-Red-AYSR` (estos tres son los repositorios originales del curso, renombrados para reflejar su contenido real tras dividir cada uno en sus laboratorios individuales — se conservó el mismo repositorio, en vez de crear uno nuevo, para no tener que reenviarle la invitación de colaborador).
+- El curso se vio dos veces: 2025-2 (sección AYSR-5L) y 2026-1 (sección AYSR-6L). Los laboratorios con versión en ambos intentos quedan agrupados en la misma carpeta.
+- Los laboratorios se desarrollaron en pareja.
 - Cada laboratorio se documenta como un informe en LaTeX (compilado a PDF) dentro de su propio repositorio.
-- Cada repositorio incluye una carpeta `scripts/` con el código Shell (u otro código ejecutable, como SQL) relacionado con ese laboratorio, extraído o reconstruido a partir del informe:
+- En el intento 2026-1, cada repositorio incluye una carpeta `scripts/` con el código Shell (u otro código ejecutable, como SQL) relacionado con ese laboratorio, extraído o reconstruido a partir del informe:
   - `Infraestructura-Basica-y-Capa-de-Red-AYSR`: `network_info.sh` y `check_port.sh` — extraídos textualmente del informe (`lstlisting`).
   - `Servidores-Web-Nginx-y-Apache-AYSR`: `nginx.conf`, `rc.nginx`, `rc.local` — transcritos de las capturas de pantalla del informe.
   - `Plataforma-Base-y-Servidor-DNS-AYSR`: `setup_dns.sh` — combina los comandos reales de instalación/arranque de BIND mostrados en el informe.
@@ -43,7 +57,7 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
   - `Protocolos-de-Red-para-Bases-de-Datos-AYSR`: `database.sql` (SQL real del informe) y `setup_database.sh` (wrapper).
   - `Plataforma-Base-Windows-Server-y-Android-AYSR`: `sysinfo.sh` — combina los comandos Linux/Unix del comparativo de comandos del informe.
   - `Capa-de-Enlace-y-Aplicacion-AYSR`: `verify_connectivity.sh` — sintetizado a partir de la verificación de conectividad descrita en el informe.
-  - `Configuracion-de-SO-y-Shell-Scripting-AYSR`: `new_group.sh`, `new_user.sh`, `ls_command.sh`, `file_search.sh`, `log_file_review.sh` — el código fuente original no se subió a GitHub; estos scripts se **reconstruyeron** a partir del comportamiento observado en las capturas de pantalla de su ejecución, por instrucción explícita del autor.
+  - `Configuracion-de-SO-y-Shell-Scripting-AYSR`: `new_group.sh`, `new_user.sh`, `ls_command.sh`, `file_search.sh`, `log_file_review.sh` — el código fuente original no se subió a GitHub; estos scripts se **reconstruyeron** a partir del comportamiento observado en las capturas de pantalla de su ejecución.
 
 ## Herramientas
 
