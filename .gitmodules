@@ -46,9 +46,9 @@
 	path = Laboratorios/Servidores-Web-Nginx-y-Apache-AYSR/AYSR-5L
 	url = https://github.com/JuanGuayazanC/Servidores-Web-Nginx-y-Apache-AYSR-5L.git
 	branch = main
-[submodule "Laboratorios/Creacion-de-Instancia-EC2-en-AWS-AYSR-5L"]
-	path = Laboratorios/Creacion-de-Instancia-EC2-en-AWS-AYSR-5L
-	url = https://github.com/JuanGuayazanC/Creacion-de-Instancia-EC2-en-AWS-AYSR-5L.git
+[submodule "Laboratorios/Creacion-de-Instancia-EC2-en-AWS-AYSR"]
+	path = Laboratorios/Creacion-de-Instancia-EC2-en-AWS-AYSR
+	url = https://github.com/JuanGuayazanC/Creacion-de-Instancia-EC2-en-AWS-AYSR.git
 	branch = main
 [submodule "Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR"]
 	path = Laboratorios/Configuracion-de-SO-y-Shell-Scripting-AYSR
