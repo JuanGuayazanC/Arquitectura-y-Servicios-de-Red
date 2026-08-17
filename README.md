@@ -29,7 +29,7 @@ Arquitectura-y-Servicios-de-Red/
     │   └── AYSR-5L/
     ├── Configuracion-de-SO-y-Shell-Scripting-AYSR/      # Configuración de SO y shell scripting (2026-1)
     ├── Plataforma-Base-Windows-Server-y-Android-AYSR/   # Windows Server y Android (2026-1)
-    └── Creacion-de-Instancia-EC2-en-AWS-AYSR-5L/        # Instancia EC2 en AWS (2025-2)
+    └── Creacion-de-Instancia-EC2-en-AWS-AYSR/        # Instancia EC2 en AWS (2025-2)
 ```
 
 ## Temas del curso
