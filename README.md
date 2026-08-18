@@ -1,8 +1,8 @@
 # Arquitectura y Servicios de Red (AYSR)
 
-Repositorio general del curso Arquitectura y Servicios de Red (ISIS AYSR), que agrupa —mediante submódulos de git— los laboratorios del curso, incluyendo dos intentos: 2025-2 (sección AYSR-5L) y 2026-1 (sección AYSR-6L).
+Repositorio general del curso Arquitectura y Servicios de Red, que agrupa —mediante submódulos de git— los laboratorios del curso, incluyendo dos intentos: 2025-2 y 2026-1.
 
-Cada submódulo es un repositorio independiente con su propio historial de commits y README. Para clonar este repositorio junto con todo su contenido, ver [Cómo clonar](#cómo-clonar).
+Cada submódulo es un repositorio independiente con su propio historial de commits y README. Para saber cómo aprovechar este repositorio, ver [Cómo usar este repositorio](#cómo-usar-este-repositorio).
 
 ## Estructura del proyecto
 
@@ -46,7 +46,7 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 
 ## Cosas a tener en cuenta
 
-- El curso se vio dos veces: 2025-2 (sección AYSR-5L) y 2026-1 (sección AYSR-6L). Los laboratorios con versión en ambos intentos quedan agrupados en la misma carpeta.
+- El curso se vio dos veces: 2025-2 y 2026-1. Los laboratorios con versión en ambos intentos quedan agrupados en la misma carpeta.
 - Los laboratorios se desarrollaron en pareja.
 - Cada laboratorio se documenta como un informe en LaTeX (compilado a PDF) dentro de su propio repositorio.
 - En el intento 2026-1, cada repositorio incluye una carpeta `scripts/` con el código Shell (u otro código ejecutable, como SQL) relacionado con ese laboratorio, extraído o reconstruido a partir del informe:
@@ -67,7 +67,12 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 - Scripts de shell (administración de sistema, arranque de servicios)
 - Microsoft Azure
 
-## Cómo clonar
+## Cómo usar este repositorio
+
+Este repositorio no contiene código directamente: es una colección de repositorios independientes, uno por laboratorio (y, en algunos casos, dos versiones del mismo laboratorio de intentos distintos), organizados por carpetas dentro de `Laboratorios/`. Cada carpeta es un submódulo de git que apunta al repositorio real de esa actividad.
+
+- **Para consultar un laboratorio puntual**: entra directamente a su carpeta en GitHub (o navega el submódulo) y revisa su propio README.
+- **Para tener todo el contenido en tu máquina**:
 
 ```bash
 git clone --recurse-submodules https://github.com/JuanGuayazanC/Arquitectura-y-Servicios-de-Red.git
