@@ -67,6 +67,10 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 - Scripts de shell (administración de sistema, arranque de servicios)
 - Microsoft Azure
 
+## Profesores
+
+Claudia Patricia Santiago Cely (intento 2025-2). William Fernando Sánchez Pacheco (teoría) y Fabián Eduardo Sierra Sánchez (laboratorio) (intento 2026-1).
+
 ## Cómo usar este repositorio
 
 Este repositorio no contiene código directamente: es una colección de repositorios independientes, uno por laboratorio (y, en algunos casos, dos versiones del mismo laboratorio de intentos distintos), organizados por carpetas dentro de `Laboratorios/`. Cada carpeta es un submódulo de git que apunta al repositorio real de esa actividad.
