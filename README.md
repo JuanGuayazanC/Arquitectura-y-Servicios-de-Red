@@ -1,6 +1,6 @@
 # Arquitectura y Servicios de Red (AYSR)
 
-Repositorio general del curso Arquitectura y Servicios de Red, que agrupa —mediante submódulos de git— los laboratorios del curso, incluyendo dos intentos: 2025-2 y 2026-1.
+Repositorio general del curso Arquitectura y Servicios de Red, que agrupa —mediante submódulos de git— los laboratorios del curso, con entregas de 2025-2 y de 2026-1.
 
 Cada submódulo es un repositorio independiente con su propio historial de commits y README. Para saber cómo aprovechar este repositorio, ver [Cómo usar este repositorio](#cómo-usar-este-repositorio).
 
@@ -10,8 +10,8 @@ Cada submódulo es un repositorio independiente con su propio historial de commi
 Arquitectura-y-Servicios-de-Red/
 └── Laboratorios/
     ├── Plataforma-Base-y-Servidor-DNS-AYSR/            # Servidor DNS (BIND/named)
-    │   ├── AYSR-6L/                                    #   Intento 2026-1
-    │   └── AYSR-5L/                                    #   Intento 2025-2
+    │   ├── AYSR-6L/                                    #   2026-1
+    │   └── AYSR-5L/                                    #   2025-2
     ├── Capa-de-Aplicacion-y-Capa-Fisica-AYSR/           # Protocolos de capa de aplicación y física
     │   ├── AYSR-6L/
     │   └── AYSR-5L/
@@ -46,10 +46,10 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 
 ## Cosas a tener en cuenta
 
-- El curso se vio dos veces: 2025-2 y 2026-1. Los laboratorios con versión en ambos intentos quedan agrupados en la misma carpeta.
+- Algunos laboratorios tienen versiones de 2025-2 y de 2026-1, agrupadas en la misma carpeta.
 - Los laboratorios se desarrollaron en pareja.
 - Cada laboratorio se documenta como un informe en LaTeX (compilado a PDF) dentro de su propio repositorio.
-- En el intento 2026-1, cada repositorio incluye una carpeta `scripts/` con el código Shell (u otro código ejecutable, como SQL) relacionado con ese laboratorio, extraído o reconstruido a partir del informe:
+- En las entregas de 2026-1, cada repositorio incluye una carpeta `scripts/` con el código Shell (u otro código ejecutable, como SQL) relacionado con ese laboratorio, extraído o reconstruido a partir del informe:
   - `Infraestructura-Basica-y-Capa-de-Red-AYSR`: `network_info.sh` y `check_port.sh` — extraídos textualmente del informe (`lstlisting`).
   - `Servidores-Web-Nginx-y-Apache-AYSR`: `nginx.conf`, `rc.nginx`, `rc.local` — transcritos de las capturas de pantalla del informe.
   - `Plataforma-Base-y-Servidor-DNS-AYSR`: `setup_dns.sh` — combina los comandos reales de instalación/arranque de BIND mostrados en el informe.
@@ -69,11 +69,11 @@ El curso recorre la arquitectura de redes de computadores por capas y el montaje
 
 ## Profesores
 
-Claudia Patricia Santiago Cely (intento 2025-2). William Fernando Sánchez Pacheco (teoría) y Fabián Eduardo Sierra Sánchez (laboratorio) (intento 2026-1).
+Claudia Patricia Santiago Cely (2025-2). William Fernando Sánchez Pacheco (teoría) y Fabián Eduardo Sierra Sánchez (laboratorio) (2026-1).
 
 ## Cómo usar este repositorio
 
-Este repositorio no contiene código directamente: es una colección de repositorios independientes, uno por laboratorio (y, en algunos casos, dos versiones del mismo laboratorio de intentos distintos), organizados por carpetas dentro de `Laboratorios/`. Cada carpeta es un submódulo de git que apunta al repositorio real de esa actividad.
+Este repositorio no contiene código directamente: es una colección de repositorios independientes, uno por laboratorio (y, en algunos casos, dos versiones del mismo laboratorio, de periodos distintos), organizados por carpetas dentro de `Laboratorios/`. Cada carpeta es un submódulo de git que apunta al repositorio real de esa actividad.
 
 - **Para consultar un laboratorio puntual**: entra directamente a su carpeta en GitHub (o navega el submódulo) y revisa su propio README.
 - **Para tener todo el contenido en tu máquina**:
