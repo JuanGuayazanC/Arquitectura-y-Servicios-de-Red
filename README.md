@@ -1,8 +1,6 @@
 # Arquitectura y Servicios de Red (AYSR)
 
-Repositorio general del curso Arquitectura y Servicios de Red, que agrupa —mediante submódulos de git— los laboratorios del curso, con entregas de 2025-2 y de 2026-1.
-
-Cada submódulo es un repositorio independiente con su propio historial de commits y README. Para saber cómo aprovechar este repositorio, ver [Cómo usar este repositorio](#cómo-usar-este-repositorio).
+Repositorio general del curso. Para saber cómo aprovecharlo, ver [Cómo usar este repositorio](#cómo-usar-este-repositorio).
 
 ## Estructura del proyecto
 
