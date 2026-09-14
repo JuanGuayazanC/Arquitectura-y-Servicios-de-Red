@@ -4,6 +4,11 @@ Agrupa los laboratorios del curso, con entregas de 2025-2 y de 2026-1.
 
 Cada submódulo es un repositorio independiente con su propio historial de commits y README. Para saber cómo aprovechar este repositorio, ver [Cómo usar este repositorio](#cómo-usar-este-repositorio).
 
+## Autor
+
+[JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JuanGuayazanC)  
+Escuela Colombiana de Ingeniería Julio Garavito
+
 ## Estructura del proyecto
 
 ```
